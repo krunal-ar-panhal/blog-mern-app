@@ -6,8 +6,8 @@
   "type": "module",
   "scripts": {
     "start": "node index.js",
-    "server":"nodemon index.js",
-    "build":"npm install --prefix ./client && npm run build --prefix ./client && npm install"
+    "server": "nodemon index.js",
+    "build": "npm install --prefix ./client && npm run build --prefix ./client && npm install"
   },
   "keywords": [],
   "author": "",
@@ -19,6 +19,7 @@
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
     "express-formidable": "^1.2.0",
+    "gitignore": "^0.7.0",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.4.1",
     "nodemon": "^3.1.3",
